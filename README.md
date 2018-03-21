@@ -1,3 +1,7 @@
-#LeetCode题目记录
+# LeetCode Solutions with Java
 
-https://leetcode.com
+[LeetCode Page](https://leetcode.com/problemset/all/)
+
+| # | Title | Source Code | Difficulty |
+|:---:|:---:|:---:|:---:|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [TwoSum.java](https://github.com/yangchd/leetcode/blob/master/src/main/java/com/yangchd/exercise/leetcode/easy/TwoSum.java) | Easy |
