@@ -4,3 +4,4 @@
 |:---:|:---:|:---:|:---:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Java](./src/main/java/com/yangchd/exercise/leetcode/easy/TwoSum.java) | Easy |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/medium/AddTwoNumbers.java) | Medium |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/add-two-numbers/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java) | Medium |
