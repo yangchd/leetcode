@@ -43,7 +43,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
          * 记录一种看到的更好的解决方法
          * 通过字符所在字符串的位置来计算最长重复
          */
-        public int SolutionOne(String s) {
+        public int solutionOne(String s) {
             int n = s.length(), ans = 0;
             int[] index = new int[128];
             for(int j=0, i=0; j<n; j++){
