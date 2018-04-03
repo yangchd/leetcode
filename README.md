@@ -8,3 +8,4 @@
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/hard/MedianofTwoSortedArrays.java) | Hard |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/medium/LongestPalindromicSubstring.java) | Medium |
 | 6 | [Median of Two Sorted Arrays](https://leetcode.com/problems/zigzag-conversion/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/medium/ZigZagConversion.java) | Medium |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/easy/ReverseInteger.java) | Easy |
