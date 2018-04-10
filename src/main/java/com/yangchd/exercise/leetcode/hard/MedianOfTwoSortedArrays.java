@@ -19,7 +19,7 @@ package com.yangchd.exercise.leetcode.hard;
 The median is (2 + 3)/2 = 2.5
  */
 
-public class MedianofTwoSortedArrays {
+public class MedianOfTwoSortedArrays {
 
     /**
      * 这个题先把两个数组组装成一个数组，然后根据总长度的奇偶找到中位值
