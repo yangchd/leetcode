@@ -51,189 +51,60 @@ package com.yangchd.exercise.leetcode.hard;
  */
 public class RegularExpressionMatching {
     class Solution {
+        /**
+         * This Solution use 2D DP. beat 90% solutions, very simple.
+         */
         public boolean isMatch(String s, String p) {
-            char point = '.';
-            char star = '*';
-            if (p.contains(".*")) {
-                StringBuilder sb = new StringBuilder();
-                while (p.contains(".*")) {
-                    int i = p.indexOf(".*");
-                    if (i - 1 >= 0 && p.charAt(i - 1) == star) {
-                        p = p.substring(0, i - 2) + p.substring(i);
-                        continue;
-                    }
-                    if (i + 3 < p.length() && p.charAt(i + 3) == star) {
-                        p = p.substring(0, i + 2) + p.substring(i + 4);
-                        continue;
-                    }
-                    sb.append(p.substring(0, i + 2));
-                    p = p.substring(i + 2);
-                }
-                p = sb.append(p).toString();
+            if (s == null || p == null) {
+                return false;
             }
-            if ("".equals(s)) {
-                if ("".equals(p)) {
-                    return true;
-                } else {
-                    if (p.length() % 2 != 0) {
-                        return false;
-                    } else {
-                        for (int i = 1; i < p.length(); i = i + 2) {
-                            if (p.charAt(i) != star) {
-                                return false;
-                            }
+            boolean[][] dp = new boolean[s.length()+1][p.length()+1];
+            dp[0][0] = true;
+            for (int i = 0; i < p.length(); i++) {
+                if (p.charAt(i) == '*' && dp[0][i-1]) {
+                    dp[0][i+1] = true;
+                }
+            }
+            for (int i = 0 ; i < s.length(); i++) {
+                for (int j = 0; j < p.length(); j++) {
+                    if (p.charAt(j) == '.') {
+                        dp[i+1][j+1] = dp[i][j];
+                    }
+                    if (p.charAt(j) == s.charAt(i)) {
+                        dp[i+1][j+1] = dp[i][j];
+                    }
+                    if (p.charAt(j) == '*') {
+                        if (p.charAt(j-1) != s.charAt(i) && p.charAt(j-1) != '.') {
+                            dp[i+1][j+1] = dp[i+1][j-1];
+                        } else {
+                            dp[i+1][j+1] = (dp[i+1][j] || dp[i][j+1] || dp[i+1][j-1]);
                         }
+                    }
+                }
+            }
+            return dp[s.length()][p.length()];
+        }
+
+
+        /**
+         * 笨方法，尝试几乎所有可能，然后才能找到结果
+         */
+        public boolean solutionOne(String s, String p) {
+            if (p.contains(".") || p.contains("*")) {
+                if (p.length() == 1 || p.charAt(1) != '*'){
+                    return comp(s, p, s.length(), 0) && solutionOne(s.substring(1), p.substring(1));
+                }
+                for (int i = 0; i == 0 || comp(s, p, s.length(), i - 1); i++) {
+                    if (solutionOne(s.substring(i), p.substring(2))){
                         return true;
                     }
                 }
-            } else {
-                if ("".equals(p)) {
-                    return false;
-                }
-                if (!p.contains(String.valueOf(point))
-                        && !p.contains(String.valueOf(star))) {
-                    return s.equals(p);
-                }
-                int sNum = 0;
-                int pNum = 0;
-                int sLength = s.length();
-                int pLength = p.length();
-                while (sNum < sLength && pNum < pLength) {
-                    if (s.charAt(sNum) != p.charAt(pNum) && p.charAt(pNum) != point) {
-                        if (pNum + 1 < pLength) {
-                            if (p.charAt(pNum + 1) == '*') {
-                                return isMatch(s, p.substring(pNum + 2));
-                            } else {
-                                return false;
-                            }
-                        } else {
-                            return false;
-                        }
-                    } else {
-                        if (pNum + 1 < pLength) {
-                            if (p.charAt(pNum + 1) == '*') {
-                                if (p.charAt(pNum) != point) {
-                                    while (sNum + 1 < sLength && s.charAt(sNum) == s.charAt(sNum + 1)) {
-                                        sNum++;
-                                    }
-                                    int rNum = 0;
-                                    if (pNum + 2 < pLength) {
-                                        while (pNum + 2 + rNum < pLength && p.charAt(pNum + 2 + rNum) == p.charAt(pNum)) {
-                                            rNum++;
-                                        }
-                                    }
-                                    String s1 = s.substring(1 + sNum);
-                                    String p1 = p.substring(pNum + 2 + rNum);
-                                    String pStr = String.valueOf(p.charAt(pNum));
-                                    while (p1.contains(pStr)) {
-                                        if (isMatch("", p1.substring(0, p1.indexOf(pStr)))) {
-                                            rNum++;
-                                        }
-                                        if (s1.contains(pStr)) {
-                                            rNum--;
-                                        }
-                                        s1 = s1.substring(s1.indexOf(pStr) + 1);
-                                        p1 = p1.substring(p1.indexOf(pStr) + 1);
-                                    }
-                                    if (rNum < 0) {
-                                        rNum = 1;
-                                    }
-                                    if (sNum == 0) {
-                                        if (1 - rNum < 0) {
-                                            return false;
-                                        } else {
-                                            while (rNum >= 0) {
-                                                if (isMatch(s.substring(1 - rNum), p.substring(2))) {
-                                                    return true;
-                                                } else {
-                                                    rNum--;
-                                                }
-                                            }
-                                            return false;
-                                        }
-                                    }
-                                    if (sNum - rNum + 1 < 0) {
-                                        return false;
-                                    }
-                                    while (rNum >= 0) {
-                                        if (isMatch(s.substring(sNum + 1 - rNum), p.substring(pNum + 2))) {
-                                            return true;
-                                        } else {
-                                            rNum--;
-                                        }
-                                    }
-                                    return false;
-                                } else {
-                                    if (pNum + 2 < pLength) {
-                                        if (p.charAt(pNum + 2) != point) {
-                                            String p2 = String.valueOf(p.charAt(pNum + 2));
-                                            if (s.contains(p2)) {
-                                                while (s.contains(p2)) {
-                                                    if (isMatch(s.substring(s.indexOf(p2)), p.substring(pNum + 2))) {
-                                                        return true;
-                                                    } else {
-                                                        if (s.indexOf(p2, 1) >= 0) {
-                                                            s = s.substring(s.indexOf(p2, 1));
-                                                        } else {
-                                                            break;
-                                                        }
-                                                    }
-                                                }
-                                                return false;
-                                            } else {
-                                                return false;
-                                            }
-                                        } else {
-                                            if (pNum + 3 < pLength) {
-                                                if (p.charAt(pNum + 3) == star) {
-                                                    return isMatch(s, p.substring(pNum + 2));
-                                                } else {
-                                                    int rNum = 1;
-                                                    if (pNum + 2 < pLength) {
-                                                        while (pNum + 2 + rNum < pLength && p.charAt(pNum + 2 + rNum) == p.charAt(pNum)) {
-                                                            rNum++;
-                                                        }
-                                                    }
-                                                    if (pNum + 2 + rNum < pLength) {
-                                                        if (p.charAt(pNum + 2 + rNum) != star) {
-                                                            if (sLength < rNum) {
-                                                                return false;
-                                                            }
-                                                            return isMatch(s.substring(rNum), p.substring(pNum + 2 + rNum));
-                                                        } else {
-                                                            if (rNum - 1 <= sLength) {
-                                                                return isMatch(s.substring(rNum - 1), p.substring(pNum + 2 + rNum - 1));
-                                                            } else {
-                                                                return false;
-                                                            }
-                                                        }
-                                                    } else {
-                                                        return sLength >= rNum;
-                                                    }
-
-                                                }
-                                            } else {
-                                                return true;
-                                            }
-                                        }
-                                    } else {
-                                        return true;
-                                    }
-                                }
-                            } else {
-                                return isMatch(s.substring(1), p.substring(1));
-                            }
-                        } else {
-                            if (sNum + 1 < sLength) {
-                                return false;
-                            } else {
-                                return true;
-                            }
-                        }
-                    }
-                }
-                return false;
             }
+            return s.equals(p);
+        }
+
+        private boolean comp(String s, String p, int sLen, int i) {
+            return sLen > i && (p.charAt(0) == s.charAt(i) || p.charAt(0) == '.');
         }
     }
 }
