@@ -54,6 +54,24 @@ public class RegularExpressionMatching {
         public boolean isMatch(String s, String p) {
             char point = '.';
             char star = '*';
+            if(p.contains(".*")){
+                StringBuilder sb = new StringBuilder();
+                while (p.contains(".*")){
+                    int i = p.indexOf(".*");
+                    if(i-1>=0 && i+3 < p.length() &&
+                            (p.charAt(i-1) == star || p.charAt(i+3) == star)){
+                        if(p.charAt(i-1) == star){
+                            p = p.substring(0,i-2)+p.substring(i);
+                        }else {
+                            p = p.substring(0,i+2)+p.substring(i+4);
+                        }
+                    }else {
+                        sb.append(p.substring(0,i+2));
+                        p = p.substring(i+2);
+                    }
+                }
+                p = sb.append(p).toString();
+            }
             if("".equals(s)){
                 if("".equals(p)){
                     return true;
@@ -119,7 +137,7 @@ public class RegularExpressionMatching {
                                         p1 = p1.substring(p1.indexOf(pStr)+1);
                                     }
                                     if(rNum < 0){
-                                        rNum = 0;
+                                        rNum = 1;
                                     }
                                     if(sNum==0){
                                         if(1-rNum < 0){
@@ -138,7 +156,14 @@ public class RegularExpressionMatching {
                                     if(sNum - rNum + 1 < 0){
                                         return false;
                                     }
-                                    return isMatch(s.substring(sNum+1-rNum),p.substring(pNum+2));
+                                    while (rNum >= 0){
+                                        if(isMatch(s.substring(sNum+1-rNum),p.substring(pNum+2))){
+                                            return true;
+                                        }else{
+                                            rNum--;
+                                        }
+                                    }
+                                    return false;
                                 }else{
                                     if(pNum + 2 < pLength){
                                         if(p.charAt(pNum+2) != point){
