@@ -14,4 +14,4 @@
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/hard/RegularExpressionMatching.java) | Hard |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/medium/ContainerWithMostWater.java) | Medium |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/medium/IntegerToRoman.java) | Medium |
-| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/medium/IntegerToRoman.java) | Easy |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Java](src/main/java/com/yangchd/exercise/leetcode/easy/RomanToInteger.java) | Easy |
