@@ -1,4 +1,4 @@
-package com.yangchd.exercise.leetcode.medium;
+package com.yangchd.leetcode.medium;
 
 /**
  * @author yangchd 2018/4/10

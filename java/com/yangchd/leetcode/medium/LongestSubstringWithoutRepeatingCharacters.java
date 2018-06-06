@@ -1,4 +1,4 @@
-package com.yangchd.exercise.leetcode.medium;
+package com.yangchd.leetcode.medium;
 
 import java.util.HashSet;
 

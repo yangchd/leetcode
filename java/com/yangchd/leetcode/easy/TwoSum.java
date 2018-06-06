@@ -1,4 +1,4 @@
-package com.yangchd.exercise.leetcode.easy;
+package com.yangchd.leetcode.easy;
 
 import java.util.HashMap;
 
