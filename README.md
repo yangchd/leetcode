@@ -21,3 +21,4 @@
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [Java](java/com/yangchd/leetcode/medium/LetterCombinationsOfAPhoneNumber.java) | Medium |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/description/) | [Java](java/com/yangchd/leetcode/medium/FourSum.java) | Medium |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Java](java/com/yangchd/leetcode/medium/RemoveNthNodeFromEndOfList.java) | Medium |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Java](java/com/yangchd/leetcode/easy/ValidParentheses.java) | Easy |
