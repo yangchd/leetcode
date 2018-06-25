@@ -29,3 +29,4 @@
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](java/com/yangchd/leetcode/hard/ReverseNodesInKGroup.java) | Hard |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Java](java/com/yangchd/leetcode/easy/RemoveDuplicatesFromSortedArray.java) | Easy |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Java](java/com/yangchd/leetcode/easy/RemoveDuplicatesFromSortedArray.java) | Easy |
+| 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Java](java/com/yangchd/leetcode/easy/ImplementStr.java) | Easy |
