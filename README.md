@@ -27,3 +27,4 @@
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Java](java/com/yangchd/leetcode/hard/MergekSortedLists.java) | Hard |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | [Java](java/com/yangchd/leetcode/medium/SwapNodesInPairs.java) | Medium |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | [Java](java/com/yangchd/leetcode/hard/ReverseNodesInKGroup.java) | Hard |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Java](java/com/yangchd/leetcode/easy/RemoveDuplicatesFromSortedArray.java) | Easy |
