@@ -30,3 +30,4 @@
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Java](java/com/yangchd/leetcode/easy/RemoveDuplicatesFromSortedArray.java) | Easy |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Java](java/com/yangchd/leetcode/easy/RemoveDuplicatesFromSortedArray.java) | Easy |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [Java](java/com/yangchd/leetcode/easy/ImplementStr.java) | Easy |
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/) | [Java](java/com/yangchd/leetcode/medium/DivideTwoIntegers.java) | Medium |
