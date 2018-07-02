@@ -33,3 +33,4 @@
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/) | [Java](java/com/yangchd/leetcode/medium/DivideTwoIntegers.java) | Medium |
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/) | [Java](java/com/yangchd/leetcode/hard/SubstringWithConcatenationOfAllWords.java) | Hard |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [Java](java/com/yangchd/leetcode/medium/NextPermutation.java) | Medium |
+| 31 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/) | [Java](java/com/yangchd/leetcode/hard/LongestValidParentheses.java) | Hard |
