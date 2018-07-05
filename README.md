@@ -37,3 +37,4 @@
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Java](java/com/yangchd/leetcode/medium/SearchInRotatedSortedArray.java) | Medium |
 | 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | [Java](java/com/yangchd/leetcode/medium/SearchForARange.java) | Medium |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Java](java/com/yangchd/leetcode/easy/SearchInsertPosition.java) | Easy |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [Java](java/com/yangchd/leetcode/medium/ValidSudoku.java) | Medium |
