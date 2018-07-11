@@ -38,3 +38,4 @@
 | 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | [Java](java/com/yangchd/leetcode/medium/SearchForARange.java) | Medium |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [Java](java/com/yangchd/leetcode/easy/SearchInsertPosition.java) | Easy |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [Java](java/com/yangchd/leetcode/medium/ValidSudoku.java) | Medium |
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/) | [Java](java/com/yangchd/leetcode/hard/SudokuSolver.java) | Hard |
