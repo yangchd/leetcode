@@ -40,3 +40,4 @@
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [Java](java/com/yangchd/leetcode/medium/ValidSudoku.java) | Medium |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/) | [Java](java/com/yangchd/leetcode/hard/SudokuSolver.java) | Hard |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | [Java](java/com/yangchd/leetcode/easy/CountAndSay.java) | Easy |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [Java](java/com/yangchd/leetcode/medium/CombinationSum.java) | Medium |
