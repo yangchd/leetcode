@@ -42,3 +42,4 @@
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | [Java](java/com/yangchd/leetcode/easy/CountAndSay.java) | Easy |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [Java](java/com/yangchd/leetcode/medium/CombinationSum.java) | Medium |
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) | [Java](java/com/yangchd/leetcode/medium/CombinationSumII.java) | Medium |
+| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | [Java](java/com/yangchd/leetcode/hard/FirstMissingPositive.java) | Hard |
