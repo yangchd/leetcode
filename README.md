@@ -46,3 +46,4 @@
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Java](java/com/yangchd/leetcode/hard/TrappingRainWater.java) | Hard |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) | [Java](java/com/yangchd/leetcode/medium/MultiplyStrings.java) | Medium |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/) | [Java](java/com/yangchd/leetcode/hard/WildcardMatching.java) | Hard |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/) | [Java](java/com/yangchd/leetcode/hard/JumpGameII.java) | Hard |
