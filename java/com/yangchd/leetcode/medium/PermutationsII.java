@@ -1,28 +1,29 @@
 package com.yangchd.leetcode.medium;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
- * @author yangchd  2018/9/12.
+ * @author yangchd  2018/9/18.
  *
- * 46. Permutations
- * Given a collection of distinct integers, return all possible permutations.
+ * 47. Permutations II
+ * Given a collection of numbers that might contain duplicates, return all possible unique permutations.
  *
  * Example:
- * Input: [1,2,3]
+ * Input: [1,1,2]
  * Output:
  * [
- * [1,2,3],
- * [1,3,2],
- * [2,1,3],
- * [2,3,1],
- * [3,1,2],
- * [3,2,1]
+ * [1,1,2],
+ * [1,2,1],
+ * [2,1,1]
  * ]
+ *
  */
-public class Permutations {
+public class PermutationsII {
     class Solution {
-        public List<List<Integer>> permute(int[] nums) {
+        public List<List<Integer>> permuteUnique(int[] nums) {
             List<List<Integer>> list = new ArrayList<List<Integer>>();
             if (nums == null || nums.length == 0) {
                 return list;
@@ -30,21 +31,28 @@ public class Permutations {
             backtrack(list, 0, nums);
             return list;
         }
+
         private void backtrack(List<List<Integer>> list, int start, int[] nums) {
             if (start == nums.length) {
                 List<Integer> temp = new ArrayList<Integer>();
                 for (int num : nums) {
                     temp.add(num);
                 }
-                list.add(new ArrayList<Integer>(temp));
+                if (!list.contains(temp)) {
+                    list.add(temp);
+                }
                 return;
             }
+            Set<Integer> set = new HashSet<Integer>();
             for (int i = start; i < nums.length; i++) {
-                swap(nums, start, i);
-                backtrack(list, start + 1, nums);
-                swap(nums, start, i);
+                if (set.add(nums[i])) {
+                    swap(nums, start, i);
+                    backtrack(list, start + 1, nums);
+                    swap(nums, start, i);
+                }
             }
         }
+
         private void swap(int[] nums, int i, int j) {
             int temp = nums[i];
             nums[i] = nums[j];
