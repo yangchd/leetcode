@@ -52,3 +52,4 @@
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [Java](java/com/yangchd/leetcode/medium/RotateImage.java) | Medium |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Java](java/com/yangchd/leetcode/medium/GroupAnagrams.java) | Medium |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [Java](java/com/yangchd/leetcode/medium/PowXN.java) | Medium |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/description/) | [Java](java/com/yangchd/leetcode/hard/NQueens.java) | Hard |
