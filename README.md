@@ -53,3 +53,4 @@
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Java](java/com/yangchd/leetcode/medium/GroupAnagrams.java) | Medium |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [Java](java/com/yangchd/leetcode/medium/PowXN.java) | Medium |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/description/) | [Java](java/com/yangchd/leetcode/hard/NQueens.java) | Hard |
+| 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) | [Java](java/com/yangchd/leetcode/hard/NQueensII.java) | Hard |
