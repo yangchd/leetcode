@@ -56,3 +56,4 @@
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) | [Java](java/com/yangchd/leetcode/hard/NQueensII.java) | Hard |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](java/com/yangchd/leetcode/easy/MaximumSubarray.java) | Easy |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Java](java/com/yangchd/leetcode/medium/SpiralMatrix.java) | Medium |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/description/) | [Java](java/com/yangchd/leetcode/medium/JumpGame.java) | Medium |
