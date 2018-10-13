@@ -21,15 +21,13 @@ import java.util.List;
  *
  */
 public class MergeIntervals {
-    public static class Interval {
+    public class Interval {
         int start;
         int end;
-
         Interval() {
             start = 0;
             end = 0;
         }
-
         Interval(int s, int e) {
             start = s;
             end = e;
