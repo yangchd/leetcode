@@ -66,3 +66,4 @@
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Java](java/com/yangchd/leetcode/medium/UniquePaths.java) | Medium |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Java](java/com/yangchd/leetcode/medium/UniquePathsII.java) | Medium |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Java](java/com/yangchd/leetcode/medium/MinimumPathSum.java) | Medium |
+| 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | [Java](java/com/yangchd/leetcode/hard/ValidNumber.java) | Hard |
