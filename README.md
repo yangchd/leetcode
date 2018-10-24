@@ -69,3 +69,4 @@
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | [Java](java/com/yangchd/leetcode/hard/ValidNumber.java) | Hard |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](java/com/yangchd/leetcode/easy/PlusOne.java) | Easy |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](java/com/yangchd/leetcode/easy/AddBinary.java) | Easy |
+| 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Java](java/com/yangchd/leetcode/hard/TextJustification.java) | Hard |
