@@ -74,3 +74,4 @@
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](java/com/yangchd/leetcode/easy/ClimbingStairs.java) | Easy |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Java](java/com/yangchd/leetcode/medium/SimplifyPath.java) | Medium |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Java](java/com/yangchd/leetcode/hard/EditDistance.java) | Hard |
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Java](java/com/yangchd/leetcode/medium/SetMatrixZeroes.java) | Medium |
