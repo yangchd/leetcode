@@ -73,3 +73,4 @@
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Java](java/com/yangchd/leetcode/easy/SqrtX.java) | Easy |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](java/com/yangchd/leetcode/easy/ClimbingStairs.java) | Easy |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Java](java/com/yangchd/leetcode/medium/SimplifyPath.java) | Medium |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Java](java/com/yangchd/leetcode/hard/EditDistance.java) | Hard |
