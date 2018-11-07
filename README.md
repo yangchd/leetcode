@@ -80,3 +80,4 @@
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Java](java/com/yangchd/leetcode/hard/MinimumWindowSubstring.java) | Hard |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | [Java](java/com/yangchd/leetcode/medium/Combinations.java) | Medium |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | [Java](java/com/yangchd/leetcode/medium/Subsets.java) | Medium |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Java](java/com/yangchd/leetcode/medium/WordSearch.java) | Medium |
