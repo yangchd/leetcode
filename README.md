@@ -4,7 +4,7 @@
 | # | Title | Difficulty | go | java |
 |:---:|:---:|:---:|:---:|:---:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | Easy | [go](go/easy/two_sum.go) | [Java](java/easy/TwoSum.java) |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium |  | [Java](java/medium/AddTwoNumbers.java) |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | [go](go/medium/add_two_numbers.go) | [Java](java/medium/AddTwoNumbers.java) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Medium |  | [Java](java/medium/LongestSubstringWithoutRepeatingCharacters.java) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Hard |  | [Java](java/hard/MedianOfTwoSortedArrays.java) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | Medium |  | [Java](java/medium/LongestPalindromicSubstring.java) |
