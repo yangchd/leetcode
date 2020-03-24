@@ -3,7 +3,7 @@
 
 | # | Title | Difficulty | go | java |
 |:---:|:---:|:---:|:---:|:---:|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | Easy | go | [Java](java/easy/TwoSum.java) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | Easy | [go](go/easy/two_sum.go) | [Java](java/easy/TwoSum.java) |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium |  | [Java](java/medium/AddTwoNumbers.java) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Medium |  | [Java](java/medium/LongestSubstringWithoutRepeatingCharacters.java) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Hard |  | [Java](java/hard/MedianOfTwoSortedArrays.java) |
