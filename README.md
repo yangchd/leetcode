@@ -7,7 +7,7 @@
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | [go](go/medium/add_two_numbers.go) | [Java](java/medium/AddTwoNumbers.java) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Medium | [go](go/medium/longest_substring_without_repeating_characters.go) | [Java](java/medium/LongestSubstringWithoutRepeatingCharacters.java) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Hard |  | [Java](java/hard/MedianOfTwoSortedArrays.java) |
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | Medium |  | [Java](java/medium/LongestPalindromicSubstring.java) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | Medium | [go](go/medium/longest_palindromic_substring.go) | [Java](java/medium/LongestPalindromicSubstring.java) |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | Medium |  | [Java](java/medium/ZigZagConversion.java) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | Easy |  | [Java](java/easy/ReverseInteger.java) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | Medium |  | [Java](java/medium/StringToInteger.java) |
