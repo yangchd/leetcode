@@ -9,8 +9,8 @@
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Hard | [go](go/hard/median_of_two_sorted_arrays.go) | [Java](java/hard/MedianOfTwoSortedArrays.java) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | Medium | [go](go/medium/longest_palindromic_substring.go) | [Java](java/medium/LongestPalindromicSubstring.java) |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | Medium | [go](go/medium/zigzag_conversion.go) | [Java](java/medium/ZigZagConversion.java) |
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | Easy |  | [Java](java/easy/ReverseInteger.java) |
-| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | Medium |  | [Java](java/medium/StringToInteger.java) |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | Easy | [go](go/easy/reverse_integer.go) | [Java](java/easy/ReverseInteger.java) |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | Medium | [go](go/medium/string_to_integer.go) | [Java](java/medium/StringToInteger.java) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | Easy |  | [Java](java/easy/PalindromeNumber.java) |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | Hard |  | [Java](java/hard/RegularExpressionMatching.java) |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | Medium |  | [Java](java/medium/ContainerWithMostWater.java) |
